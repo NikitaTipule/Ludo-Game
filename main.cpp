@@ -265,37 +265,36 @@ void ludo::path_init()
         }
 
 
-void ludo::home_assgn()
-{
+// Function to assign home to all pawns according to their color
+void ludo::home_assgn(){
 
+    //for thr red pawns
+   for(int i=0;i<6;i++) {
+       // x co-ordinate is varing
+       red_hm[0][i]=65+30*i; // for x co ordinate
+       red_hm[1][i]=245; // for y co ordinate
+   }
 
-   for(int i=0;i<6;i++)
-   {
-       red_hm[0][i]=65+30*i;
-       red_hm[1][i]=245;
+    //for the green pawns
+   for(int i=0;i<6;i++) {
+
+       grn_hm[0][i]=245; // x co ordinate
+       grn_hm[1][i]=65+30*i; // y co-ordinate
 
    }
 
+    // for the blue pawns
+   for(int i=0;i<6;i++) {
 
-   for(int i=0;i<6;i++)
-   {
-       grn_hm[0][i]=245;
-       grn_hm[1][i]=65+30*i;
-
+       blu_hm[0][i]=245; // x co-ordinate
+       blu_hm[1][i]=425-30*i; // y co-ordinate
    }
 
+    //for the yellow pawns
+   for(int i=0;i<6;i++) {
 
-   for(int i=0;i<6;i++)
-   {
-       blu_hm[0][i]=245;
-       blu_hm[1][i]=425-30*i;
-   }
-
-
-   for(int i=0;i<6;i++)
-   {
-       ylw_hm[0][i]=425-30*i;
-       ylw_hm[1][i]=245;
+       ylw_hm[0][i]=425-30*i;  // x co-ordinate
+       ylw_hm[1][i]=245;  // y co-ordinate
 
    }
 
@@ -436,17 +435,18 @@ int ludo::home(int clr,int first,int pos)
 
 }
 
+// Functino
 int ludo::diamond(int x)
 {
-     int a;
-     if(x == 4)
-         a = 51;
-      else if( x == 2)
-         a = 12;
-       else if(x == 14)
-         a = 25;
-        else if (x == 1)
-          a == 38;
+    int a;
+    if(x == 4)
+        a = 51;
+    else if( x == 2)
+        a = 12;
+    else if(x == 14)
+        a = 25;
+    else if (x == 1)
+        a == 38;
     return a;
 }
 
