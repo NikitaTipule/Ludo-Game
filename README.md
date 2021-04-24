@@ -22,14 +22,14 @@ Used graphics.h library for UI
 
 ## Sceenshots
 	
-![Initial Window](https://github.com/NikitaTipule/Ludo-Game/blob/Main/Screenshots/1.jpeg)
+![Initial Window](https://github.com/NikitaTipule/Ludo-Game/blob/main/Screenshots/1.jpeg)
 
-![Playing](https://github.com/NikitaTipule/Ludo-Game/blob/Main/Screenshots/2.jpeg)
+![Playing](https://github.com/NikitaTipule/Ludo-Game/blob/main/Screenshots/2.jpeg)
 
 
 ## Contributors
- * Nikita tipule <a>https://github.com/NikitaTipule</a>
- * Harshal Chavan <a>https://github.com/Chavan-Harshal</a>
- * Nikhil Repale <a>https://github.com/111903050</a>
+ * <a href="https://github.com/NikitaTipule">Nikita Tipule</a>
+ * <a href="https://github.com/Chavan-Harshal">Harshal Chavan</a>
+ * <a href="https://github.com/111903050">Nikhil Repale</a>
 
 
